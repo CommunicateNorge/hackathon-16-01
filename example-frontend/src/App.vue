@@ -1,7 +1,8 @@
 <template>
   <div>
+    <SidebarMenu />
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <router-view></router-view>
   </div>
 
 </template>
@@ -9,10 +10,12 @@
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
 import HelloWorld from './components/HelloWorld.vue';
+import SidebarMenu from './layout/SidebarMenu.vue';
 
 @Options({
   components: {
     HelloWorld,
+    SidebarMenu
   },
 })
 export default class App extends Vue { }
