@@ -68,3 +68,9 @@ Div.
 ### Via git (SSH)
 
 ![clone-ssh-vhs](./tapes/clone-ssh.gif)
+
+2. Create a new branch for your team:
+
+![create-branch-vhs](./tapes/create-branch.gif)
+
+3. Create a new folder in the `teams` folder with your team name
