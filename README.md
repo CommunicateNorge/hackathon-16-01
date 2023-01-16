@@ -1,4 +1,4 @@
-# 🚀 Evidi Communicate Hackathon
+# 🚀 Evidi Hackathon
 
 ## Mission Brief 🕵️
 
